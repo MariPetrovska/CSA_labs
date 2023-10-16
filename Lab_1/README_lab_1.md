@@ -72,33 +72,42 @@ Creation of folder Lab_1
 ![screen](screenshots/status_docker.png)
 
 2. To see the images in Docker use the command `sudo docker images`:
+   
 ![screen](screenshots/image_ubuntu.png)
 
 3. To create an image use the command `sudo docker pull name:tag`:
+   
 ![screen](screenshots/alpine.png)
 
 4. To publish a container's port to the host, create the port binding using flag  `-p` in the command `sudo docker -d -p 80:80 nginx:alpine`:
+   
 ![screen](screenshots/port.png)
 
 > **Note**
 > Standard to use the same port on your host as a container using.
 
 After we write the localhost:
+
 ![screen](screenshots/localhost.png)
 
 And at the result have the following:
+
 ![screen](screenshots/welcome.png)
 
-3. As container is a running instance of an image, to create a container use the command `sudo docker run name:tag`:
+5. As container is a running instance of an image, to create a container use the command `sudo docker run name:tag`:
+   
 ![screen](screenshots/creationofcontainer.png)
 
 To check `only` running containers use the command `sudo docker ps`:
+
 ![screen](screenshots/container.png)
 
 And if it's needed to use `running and stopped` list of containers use the command `sudo docker ps -a`:
+
 ![screen](screenshots/ps-a.png)
 
 To stop work of container use the command `sudo docker stop container_id`:
+
 ![screen](screenshots/stop.png)
 
 And check the results:
