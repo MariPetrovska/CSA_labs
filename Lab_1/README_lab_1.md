@@ -1,6 +1,6 @@
 ## Create a SSH key on the local computer
 1. Creation of folder SSH_keys
-![screen](1.png)
+![screen](screenshots/1.png)
 
 ## Create a SSH key on the local computer
 2. After opening GitBash terminal was used the following commands.
