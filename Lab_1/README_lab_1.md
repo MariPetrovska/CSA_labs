@@ -1,5 +1,6 @@
 ## Create a SSH key on the local computer
 1. Creation of folder SSH_keys
+   
 ![screen](screenshots/1.png)
 
 ## Create a SSH key on the local computer
